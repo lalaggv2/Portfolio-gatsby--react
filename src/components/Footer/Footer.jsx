@@ -4,12 +4,12 @@ import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import GithubButtons from '../GithubButtons/GithubButtons';
 
-import { githubButtons } from '../../mock/data';
+// import { githubButtons } from '../../mock/data';
 
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
   const { networks } = footer;
-  const { isEnabled } = githubButtons;
+  const { isEnabled } = GithubButtons;
 
   return (
     <footer className="footer navbar-static-bottom">
