@@ -54,7 +54,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href={"/assets/" + resume}
                     >
                       Resume
                     </a>
@@ -65,7 +65,7 @@ const About = () => {
           </Col>
         </Row>
       </Container>
-    </section>
+    </section >
   );
 };
 
