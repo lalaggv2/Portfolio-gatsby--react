@@ -18,8 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'IMG_2670.JPG',
-  paragraphOne: 'As a professional with a background in the design of living spaces with an interest in function over form,\nI bring those qualities to the web development area. My interest is creating  thorough and user friendly applications that also have elements of good design. For me, functionality  and creating a good user experience is first  and foremost the objective.',
-  paragraphTwo: 'I recently received a certificate in Web Development by the University of New Hampshire, powered by Trilogy 2U education. I am proficient in HTML5, CSS, JavaScript, RESTful API, Node.js, PWA, Express, Mongo and MySQL and React and Vue frameworks',
+  paragraphOne:
+    'As a professional with a background in the design of living spaces with an interest in function over form,\nI bring those qualities to the web development area. My interest is creating  thorough and user friendly applications that also have elements of good design. For me, functionality  and creating a good user experience is first  and foremost the objective.',
+  paragraphTwo:
+    'I recently received a certificate in Web Development by the University of New Hampshire, powered by Trilogy 2U education. I am proficient in HTML5, CSS, JavaScript, RESTful API, Node.js, PWA, Express, Mongo and MySQL and React and Vue frameworks',
   paragraphThree: 'Always interested in learning new technologies and broaden my skill set',
   resume: 'LAGGResume.pdf', // if no resume, the button will not show up
 };
